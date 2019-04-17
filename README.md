@@ -1,1 +1,1 @@
-# cs446final
+# CWU CS 446 UI Final Project
