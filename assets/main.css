@@ -13,7 +13,6 @@ header {
   text-align: center;
   background-color: green;
   color: white;
-  text-align: center;
 }
 /*
 header h1 {
@@ -26,17 +25,11 @@ table {
   width: 100%;
   text-align: center;
 }
-div.col-sm {
-  text-align: center;
-}
-p.label {
-  text-align: center;
-  color: black;
-}
-/*
+*/
 a {
   color: black;
 }
+/*
 a.icon {
   text-decoration: none;
   font-size: 15vw;
