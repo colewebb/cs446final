@@ -1,7 +1,14 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>eGuide v0.1</title>
+    <link rel="stylesheet" 
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+      crossorigin="anonymous"
+    >
     <link rel="stylesheet" href="./assets/main.css" type="text/css">
     <link rel="stylesheet" href="./assets/index.css" type="text/css">
   </head>
@@ -9,49 +16,87 @@
     <h1>eGuide</h1>
   </header>
   <body>
-    <table>
-      <tr>
-        <td class="icon">
-          <a class="icon" href="./hiking/hiking.html">🥾</a>
-        </td class="icon">
-        <td>
-          <a class="icon" href="./camping/camping.html">⛺</a️>
-        </td>
-      </tr>
-      <tr>
-        <td class="icon-text">
-          <a class="icon-text" href="./hiking/hiking.html">Hiking</a>
-        </td>
-        <td class="icon-text">
-          <a class="icon-text" href="./camping/camping.html">Camping</a>
-        </td>
-      </tr>
-      <tr>
-        <td class="icon">
-          <a class="icon" href="./food/food.html">🍲</a>
-        </td>
-        <td class="icon">
-          <a class="icon" href="./romance/romance.html">❤️</a>
-        </td>
-      </tr>
-      <tr>
-        <td class="icon-text">
-          <a class="icon-text" href="./food/food.html">Food</a>
-        </td>
-        <td class="icon-text">
-          <a class="icon-text" href="./romance/romance.html">Romance</a>
-        </td>
-      </tr>
-      <tr>
-        <td class="icon">
-          <a class="icon" href="./photography/photography.html">📷</a>
-        </td>
-      </tr>
-      <tr>
-        <td class="icon-text">
-          <a class="icon-text" href="./photography/photography.html">Photography</a>
-        </td>
-      </tr>
-    </table>
+    <div class="row">
+      <div class="col-sm">
+        <a href="./hiking/hiking.html">
+          <table>
+            <tr>
+              <td>
+                <img height="250px" src="./assets/images/hiking.jfif">
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p class="label">Hiking</p>
+              </td>
+            </tr>
+          </table>
+        </a>
+      </div>
+      <div class="col-sm">
+          <a href="./camping/camping.html">
+            <table>
+              <tr>
+                <td>
+                  <img height="250px" src="./assets/images/camping.jpg">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="label">Camping</p>
+                </td>
+              </tr>
+            </table>
+          </a>
+      </div>
+      <div class="col-sm">
+          <a href="./food/food.html">
+            <table>
+              <tr>
+                <td>
+                  <img height="250px" src="./assets/images/food.jpg">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="label">Food</p>
+                </td>
+              </tr>
+            </table>
+          </a>
+      </div>
+      <div class="col-sm">
+          <a href="./romance/romance.html">
+            <table>
+              <tr>
+                <td>
+                  <img height="250px" src="./assets/images/kissing.jpg">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="label">Romance</p>
+                </td>
+              </tr>
+            </table>
+          </a>
+      </div>
+      <div class="col-sm">
+          <a href="./photography/photography.html">
+            <table>
+              <tr>
+                <td>
+                  <img height="250px" src="./assets/images/photography.jpg">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p class="label">Photography</p>
+                </td>
+              </tr>
+            </table>
+          </a>
+      </div>
+      </div>
   </body>
 </html>
