@@ -8,6 +8,12 @@ html {
 body {
   font-family: ubuntu;
 }
+div.breadcrumbs {
+  text-align: center;
+}
+a.breadcrumbs {
+  text-decoration: underline;
+}
 header {
   font-family: ubuntu;
   text-align: center;
@@ -29,10 +35,10 @@ table {
   width: 100%;
   text-align: center;
 }
+/*
 a {
   color: black;
 }
-/*
 a.icon {
   text-decoration: none;
   font-size: 15vw;
