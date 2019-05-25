@@ -23,6 +23,20 @@ header {
 footer {
   text-align:  center;
 }
+a.go {
+  background-color: green;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+a.go:hover {
+  text-decoration: none;
+}
+a.go:visited {
+  color:white;
+}
 /*
 header h1 {
   font-size: 6vw;
