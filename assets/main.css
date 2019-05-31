@@ -37,30 +37,21 @@ a.go:hover {
 a.go:visited {
   color:white;
 }
-/*
-header h1 {
-  font-size: 6vw;
+a.headerlink {
+  color: white;
+  text-decoration: none;
 }
-a.card {
-  border-style: solid;
-  border-radius: 5px;
+a.headerlink:hover {
+  color: white;
+  text-decoration: none;
 }
-*/
+a.headerlink:visited {
+  color: white;
+  text-decoration: none;
+}
 table {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
   text-align: center;
 }
-/*
-a {
-  color: black;
-}
-a.icon {
-  text-decoration: none;
-  font-size: 15vw;
-}
-a.icon-text {
-  font-size: 4vw;
-}
-*/
